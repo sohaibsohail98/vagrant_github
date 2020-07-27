@@ -20,24 +20,24 @@ Exercise:
 
 - create two folders dir1, dir2
 - in each folder create 2 files test1.txt and test2.txt
--check the current dir location and document the command to access the dir and exitO
+- check the current dir location and document the command to access the dir and exitO
 
 Navigating through Gitbash:
 
-To navigate into the root directory, use "cd /"
-To navigate to your home directory, use "cd" or "cd ~"
-To navigate up one directory level, use "cd .."
-To navigate to the previous directory (or back), use "cd -"
+- To navigate into the root directory, use "cd /"
+- To navigate to your home directory, use "cd" or "cd ~"
+- To navigate up one directory level, use "cd .."
+- To navigate to the previous directory (or back), use "cd -"
 
 Commands:
 
 - how to delete the file - use - rm nameofthefile - use sudo rm nameofthefile
 
--root user (admin) - sudo su - command for root
+- root user (admin) - sudo su - command for root
 
--How to check who is using the machine - id
+- How to check who is using the machine - id
 
--echo is used to print on command line - echo "Hello"
+- echo is used to print on command line - echo "Hello"
 
 - How can we go back to normal user - exit
 
