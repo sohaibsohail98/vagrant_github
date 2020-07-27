@@ -1,4 +1,4 @@
-```Introduction to the Vagrant with Virtualbox```
+\```Introduction to the Vagrant with Virtualbox```
 
 In this repository, you should see my VM and Vagrant progress. This includes
 commands and work I've completed on Vagrant. 
@@ -20,7 +20,7 @@ and create a private IP to access the Nginx server on the web.
 
 - Install packages such as Nginx within the Vagrant system - which will install the web server functionality
 
-- Edited Vagrantfile script to make sure it connects the ip address to the web address.
+- Edited Vagrantfile script to make sure it connects the IP address to the web address.
 
 - Checked the status of the package Nginx within our Vagrant system
 
