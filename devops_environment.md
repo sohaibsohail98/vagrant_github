@@ -16,3 +16,5 @@ will print out all files
 -Exercise: create two folders dir1, dir2
 - in each folder create 2 files test1.txt and test2.txt
 -check the current dir location and document the command to access the dir and exitO
+
+something edited
