@@ -36,3 +36,14 @@ To navigate to the previous directory (or back), use "cd -"
 - How can we install packages - sudo apt-get install nginx - ths will install the nginx package
 
 - How can we check the status of program - systemctl status nameofthepackage
+
+- What we have done so far:
+
+Updated our vagrant 
+Created new directories
+Created new files 
+Deleted files 
+Changed permissions on vagrant file
+Install packages such as Nginx - which will install the web server functionality
+Edited Vagrantfile to make sure it connects the ip address to the web address.
+Checked the status of the package Nginx
