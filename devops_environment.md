@@ -1,6 +1,9 @@
 #Inside our VM ubuntu 16.04
 
-# sudo apt-get update -y
+Commands:
+
+
+- sudo apt-get update -y  - this makes sure that the vagrant environment is up to date and accepts yes commands.
 
 - where am I - pwd is the command to find our current location 
 - who am I - who is the command 
@@ -13,14 +16,20 @@ will print out all files
 - how do we create a directory - mkdir nameofthedirectory
 - how do I go inside the dir - cd nameofthedirectory
 
--Exercise: create two folders dir1, dir2
+Exercise:
+
+- create two folders dir1, dir2
 - in each folder create 2 files test1.txt and test2.txt
 -check the current dir location and document the command to access the dir and exitO
+
+Navigating through Gitbash:
 
 To navigate into the root directory, use "cd /"
 To navigate to your home directory, use "cd" or "cd ~"
 To navigate up one directory level, use "cd .."
 To navigate to the previous directory (or back), use "cd -"
+
+Commands:
 
 - how to delete the file - use - rm nameofthefile - use sudo rm nameofthefile
 
@@ -32,25 +41,8 @@ To navigate to the previous directory (or back), use "cd -"
 
 - How can we go back to normal user - exit
 
-
 - How can we install packages - sudo apt-get install nginx - ths will install the nginx package
 
 - How can we check the status of program - systemctl status nameofthepackage
 
-- What we have done so far:
 
-Updated our vagrant 
-
-Created new directories
-
-Created new files 
-
-Deleted files 
-
-Changed permissions on vagrant file
-
-Install packages such as Nginx - which will install the web server functionality
-
-Edited Vagrantfile to make sure it connects the ip address to the web address.
-
-Checked the status of the package Nginx
