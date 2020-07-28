@@ -3,6 +3,11 @@
 In this repository, you should see my VM and Vagrant progress. The Devops_environment.md file contains the list of notes and
 commands that we have worked during class.
 
+Click here for the progress and commands.
+
+http://github.com - automatic!
+[GitHub](http://github.com)
+
 We also installed Nginx Module - which initialises the web server functionality
 and create a private IP to access the Nginx server on the web.
 
