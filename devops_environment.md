@@ -161,7 +161,8 @@ These are the steps we took to install Node:
 
 ```curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 
-sudo apt-get install -y nodejs```
+sudo apt-get install -y nodejs
+```
 
 
 Running an update to make sure all the dependencies and packages are up to date:
