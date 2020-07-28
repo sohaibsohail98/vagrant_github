@@ -121,7 +121,7 @@ In order to understand it fully we can ask following questions:
 What language is used to build this app?
 What framework has been used?
 Are they any dependencies to be installed together
-What will the app look like?```
+What will the app look like?``` 
 
 
 1. App folder synced vm with os
