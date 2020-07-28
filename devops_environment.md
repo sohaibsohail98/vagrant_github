@@ -212,15 +212,18 @@ Creating a new shell script file to make sure its executable:
 After this we edited the script file and added these commands to make it executable for commands:
 
 
-```#!/bin/bash
+```
+#!/bin/bash
 
 sudo apt-get update
 sudo apt-get install nginx
-sudo apt-get upgrade```
+sudo apt-get upgrade
+```
 
 
 To run the shell script file, this is the command to be needing to run:
 
-```./nginx_installation_script.sh```
+```./nginx_installation_script.sh
+```
 
 
