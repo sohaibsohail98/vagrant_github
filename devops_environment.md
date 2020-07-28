@@ -209,6 +209,9 @@ Creating a new shell script file to make sure its executable:
 ```chmod +x nginx_installation_script.sh```
 
 
+The chmod command makes the file executable.
+
+
 After this we edited the script file and added these commands to make it executable for commands:
 
 
@@ -225,6 +228,112 @@ To run the shell script file, this is the command to be needing to run:
 
 ``` 
 ./nginx_installation_script.sh
+```
+
+To check what's running in the background of the Linux:
+
+```
+top
+```
+
+This gives the programID
+
+```
+ps
+```
+
+# Exercise to find the Linux permission codes to assign permissions to files
+
+Modifying access rights:
+
+```
+chmod
+```
+
+Temporarily become the superuser:
+
+```
+su
+``` 
+
+Temporarily become the admin:
+
+ 
+```
+sudo
+```
+
+Changing ownership:
+
+```
+chown                                   
+```
+
+Change a file's group ownership:
+
+```
+chgrp                                   
+```
+
+To add permissions:
+
+```
+chmod +rwx filename                                   
+```
+
+To remove permissions:
+
+```
+chmod -rwx filename                                   
+```
+
+To allow executable permissions
+
+```
+chmod +x filename
+```
+
+To remove write and executable permissions
+
+```
+chmod -wx filename
+```
+
+# How to change permissions in numeric code
+
+0 = no permission
+
+1 = execute
+
+2 = write
+
+3 = read
+
+777 - no restrictions on permissions, anybody can do anything
+
+
+Computer-aided translation (CAT) - A CAT tool is a computer program that helps to translate text documents more efficiently through four main 
+functions
+
+```
+cat filename
+```
+
+
+In order to sync everything from one folder to the VM machine, we had to change our vagrantfile and change the config line.
+
+
+```
+config.vm.synced_folder ".", "/home/vagrant/app"
+```
+
+This line makes sure that the root of the vagrantfile is in sync with the VM machine. 
+
+
+The line below will make sure that it will execute the shell script file into the VM, everytime its booted up the system 
+
+```
+config.vm.provision "shell", path: "environment/provision.sh"
 ```
 
 
