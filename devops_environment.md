@@ -223,7 +223,7 @@ sudo apt-get upgrade
 
 To run the shell script file, this is the command to be needing to run:
 
-```./nginx_installation_script.sh
+``` ./nginx_installation_script.sh
 ```
 
 
