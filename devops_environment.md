@@ -1,6 +1,6 @@
-#Inside our VM ubuntu 16.04
+# Inside our VM ubuntu 16.04
 
-```Day 1:```
+## Day 1:
 
 Commands:
 
@@ -96,7 +96,7 @@ How can we check the status of program:
 
 
 
-```Day 2:```
+## Day 2:
 
 To access a directory within Mac's Terminal:
 
