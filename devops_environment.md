@@ -103,10 +103,10 @@ To access a directory within Mac's Terminal:
 ```cd ~/Documents/Sparta/starter-code```
 
 
-```For Mac Users running a new Vagrant file, and error can occur with VM saying the user created doesn't match with 
-current user running Vagrant. To resolve this error, these are steps to resolve it:```
+For Mac Users running a new Vagrant file, and error can occur with VM saying the user created doesn't match with 
+current user running Vagrant. To resolve this error, these are steps to resolve it:
 
-- Sometimes, it causes a conflict and it uses the one of the old .vagrant file to start up the machine. To avoid this
+Sometimes, it causes a conflict and it uses the one of the old .vagrant file to start up the machine. To avoid this
 conflict and start from a completely new vagrant machine. 
 
 ```rm -r .vagrant```
@@ -198,3 +198,27 @@ Testing to make sure the app is running:
 ```node app.js```
 
 
+Effective communication
+
+
+Creating a new shell script file to make sure its executable:
+
+
+```touch nginx_installation_script.sh```
+
+```chmod +x nginx_installation_script.sh```
+
+
+After this we edited the script file and added these commands to make it executable for commands:
+
+
+```#!/bin/bash
+
+sudo apt-get update
+sudo apt-get install nginx
+sudo apt-get upgrade```
+
+
+To run the shell script file, this is the command to be needing to run:
+
+```./nginx_installation_script.sh```
