@@ -198,8 +198,6 @@ Testing to make sure the app is running:
 ```node app.js```
 
 
-Effective communication
-
 
 Creating a new shell script file to make sure its executable:
 
@@ -222,3 +220,5 @@ sudo apt-get upgrade```
 To run the shell script file, this is the command to be needing to run:
 
 ```./nginx_installation_script.sh```
+
+
