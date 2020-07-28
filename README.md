@@ -1,7 +1,7 @@
 ```Introduction to the Vagrant with Virtualbox```
 
-In this repository, you should see my VM and Vagrant progress. This includes
-commands and work I've completed on Vagrant. 
+In this repository, you should see my VM and Vagrant progress. The Devops_environment.md file contains the list of notes and
+commands that we have worked during class.
 
 We also installed Nginx Module - which initialises the web server functionality
 and create a private IP to access the Nginx server on the web.
