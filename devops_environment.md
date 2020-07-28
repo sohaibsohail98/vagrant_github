@@ -117,11 +117,11 @@ resolving the error.
 
 In order to understand it fully we can ask following questions:
 
-```Communication is the key to succesful projects communications between Dev-Ops-Tester-QA and DevOps
+``` Communication is the key to succesful projects communications between Dev-Ops-Tester-QA and DevOps
 What language is used to build this app?
 What framework has been used?
 Are they any dependencies to be installed together
-What will the app look like?``` 
+What will the app look like? ``` 
 
 
 1. App folder synced vm with os
