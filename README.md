@@ -24,4 +24,14 @@ and create a private IP to access the Nginx server on the web.
 
 - Checked the status of the package Nginx within our Vagrant system
 
+- Ran a completely new Vagrant machine using Starter code directory
+
+- Installed packages such as Bundler, Python Software Properties, NodeJs,
+PM2, NPM
+
+- Testing dependecies using 'rake spec'
+
+- Also tested out the app in real time, by entering the web server.
+
+
 
